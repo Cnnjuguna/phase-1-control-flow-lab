@@ -4,19 +4,18 @@ function scuberGreetingForFeet(someVAlue){
   if (someVAlue <= 400){
       return 'This one is on me!'
 
-  } else if(someVAlue >= 2001 || someVAlue === 2500){
+  } else if(someVAlue >= 2001 && someVAlue <= 2500){
       return 'I will gladly take your thirty bucks.'
 
-  } else if(someVAlue > 2500){
+  } else if(someVAlue >= 2501 || someVAlue > 2500){
       return 'No can do.'
+
   }
-  
   
     
  
-  
-    
-}
+}   
+console.log(scuberGreetingForFeet(2600))
 
 function ternaryCheckCity(city){
   // Write your code here! 
